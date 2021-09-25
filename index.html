@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Test CSS</title>
+
+ 
+</head>
+<body>
+	
+	<style>
+        .container {
+              align-items: center;
+              height: 100%;
+              background-color: white;
+              float: left;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-template-rows: repeat(3, 100px);
+             margin-left: 50px;
+             margin-right: 10px;
+            border: 1px solid green;
+            border-right: 15%;
+            width: 40%;
+            margin-bottom: 80%;
+        }
+      .container > div {
+              width: 80%;
+              margin: 50px;
+              background-color: royalblue;
+              font-size: 35px;
+              border: 1px solid #333;
+              padding: 5px;
+              height: 60px;
+              margin-right: 60px;
+              margin-left: 20px;
+              border-color: red; 
+        }
+        
+      .bloc:nth-child(1) {
+               background-color: blue;
+        }
+     .bloc:nth-child(2) {
+               background-color: yellow; 
+               border-radius: 10px;
+        }
+     .bloc:nth-child(3) {
+               margin-right: 10px;
+               background-color: blue;
+                                
+        }
+     .bloc:nth-child(4) {
+               margin-right: 10px;
+               background-color: darkgray;
+               border-radius: 10px;
+                                
+        }
+     .bloc:nth-child(5) {
+               margin-right: 10px;
+               background-color: blue;
+                                
+        }
+     .bloc:nth-child(6) {
+               margin-right: 10px;
+               background-color: darkgray;
+               border-radius: 10px;
+        }
+     .bloc:nth-child(7) {
+               margin-right: 10px;
+               background-color: blue;
+                                
+        }
+     .bloc:nth-child(8) { 
+             border-bottom: 1px ;
+             border-left: 25px;
+             border-right: 25px; 
+            transform: perspective(10px) rotateX(10deg);
+            margin: 50px;
+            background: black;
+            height: 45px;
+            width: 90px;
+            border-color: black;
+            margin-top: 10px;
+        }
+	</style>
+ <div class="container">
+	<div class="bloc"></div>
+	<div class="bloc"></div>
+	<div class="bloc"></div>
+	<div class="bloc"></div>
+	<div class="bloc"></div>
+	<div class="bloc"></div>
+	<div class="bloc"></div>
+	<div class="bloc"></div>
+	
+ </div>
+</body>
+</html>
